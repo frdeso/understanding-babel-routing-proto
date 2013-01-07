@@ -25,7 +25,7 @@ The Babel comes in a package that is present in the Debian repository. It is und
 
 To install this package you need to run a simple apt-get command as root.
 
-`apt-get install babeld`
+`apt-get update && apt-get install babeld`
 ###Configuration
 ##Howto install/setup Babel on OpenWRT
 ###Installation
