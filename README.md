@@ -21,7 +21,7 @@ A Mesh network is a computer network with no central point. Every node can excha
 
 ##Howto install/setup Babel on Debian
 ###Installation
-The Babel comes in a package that is present in the Debian repository. It is under the name of `babeld` for Babel deamon.
+The Babel comes in a package that is present in the Debian repository. It is under the name of `babeld` for Babel daemon.
 
 To install this package you need to run a simple apt-get command as root.
 
