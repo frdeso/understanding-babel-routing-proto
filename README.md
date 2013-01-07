@@ -24,9 +24,17 @@ A Mesh network is a computer network with no central point. Every node can excha
 The Babel comes in a package that is present in the Debian repository. It is under the name of `babeld` for Babel daemon.
 
 To install this package you need to run a simple apt-get command as root.
-
-`apt-get update && apt-get install babeld`
+~~~sh
+apt-get update && apt-get install babeld
+~~~
 ###Configuration
 ##Howto install/setup Babel on OpenWRT
 ###Installation
+OpenWRT has a package manager with a behavior like apt-get called opkg. Once, you are logging as root on your OpenWRT platform you have to make sure that you have acess to the Interwebs.(`ping google.com` is a good way to do it). 
+
+Now, you have to run these opkg commands :
+
+~~~sh
+opkg update && oopkg install babeld kmod-ipv6
+~~~
 ###Configuration
