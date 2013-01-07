@@ -19,7 +19,7 @@ A distance-vector routing protocol is routing protocol in which nodes store info
 
 A Mesh network is a computer network with no central point. Every node can exchange data directly with other nodes without having to acces to central point, like a router. The node must do his best the spread through the network his data AND the data of the other nodes. This type of network is a lot less vulnerable to natural disasters and cencorship since no node is essential.
 #Virtual environment
-
+2 ubuntu 12.04.1 virtual machines
 
 #Real world
 ##Howto install/setup Babel on Debian
