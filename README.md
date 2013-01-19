@@ -22,7 +22,7 @@ A Mesh network is a computer network with no central point. Every node can excha
 
 In order to use Babel on a meshnetwork you must start by creating a mesh. In a meshnetwork, an Ad-Hoc connection is used has the Datalink layer (layer 2) of the OSI model. Once this connection is made computers can communicate between each other.
 
-To setup a Ad-Hoc network, the computers must be in the same Ad-Hoc cell. A cell is describe with two things : the SSID and the channel. The SSID is the name of the wireless network and the channel is simply the frequency of operation.
+To setup a Ad-Hoc network, the computers must be in the same Ad-Hoc cell. A cell is describe with two things : the SSID and the channel. The SSID is the name of the wireless network which is a hexadecimal string formated as a MAC address. The channel is simply the frequency of operation.
 Also, be sure to set your network cards in Ad-Hoc mode and not in Infrastructure mode.
 
 ##Howto install/setup Babel on Debian
